@@ -7,7 +7,7 @@ p, h1, h2, h3, h4, h5, h6, bockquote {
 }
 
 .navigation li {padding: 0; margin: 17px 35px 17px 2px; background-color: #52c883; width: 10px; height: 10px;  border-radius:100%; list-style-type:none; box-shadow: 0 0 1px #303030;z-index: 999999;}
-.navigation ul {position: fixed; right: 0; top: 40vh;}
+.navigation ul {position: fixed; right: 0; top: 40vh; z-index:999999;}
 .navigation li:hover {background-color: #c6edd6;
   -webkit-transition: background-color .2s ease-in-out;
   -moz-transition: background-color .2s ease-in-out;
