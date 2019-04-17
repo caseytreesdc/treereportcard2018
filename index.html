@@ -485,23 +485,27 @@
     </footer>
 
     <script src="js/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <!--<script src="js/scripts.js"></script>-->
    
     
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
-    <script type="text/javascript">var scroll = new SmoothScroll('#navacknowledgements, #navwelcome, #navsummary, #navspotlight, #navmetrics, #navrecommendations, #navappendix', {speed: 8000, easing: 'easeInOutQuad'});</script>
+   
     <script>
         new WOW().init();
         $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
+
+var scroll = new SmoothScroll('a[href*="#"]', {speed: 8000, easing: 'easeInOutQuad'});
+
 
     </script>
 </body>
